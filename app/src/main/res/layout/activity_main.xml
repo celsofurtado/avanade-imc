@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="48dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora IMC"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:textAppearance="@style/titulos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Índice de Massa Corporal"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso em Kgs."
+        android:layout_marginTop="48dp"/>
+
+    <EditText
+        android:id="@+id/edit_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o seu peso"
+        android:padding="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edit_text_layout"
+        android:inputType="numberSigned"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura em cms."
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a sua altura"
+        android:padding="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edit_text_layout"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:padding="16dp"
+        />
+
+
+</LinearLayout>
