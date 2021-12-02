@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">IMC Application</string>
+
+    <string name="titulo_imc">Calculadora de IMC</string>
+    <string name="subtitulo_imc_activity">Índice de Massa Corporal</string>
+    <string name="peso_kgs">Peso em Kgs.</string>
+    <string name="digite_o_seu_peso">Digite o seu peso</string>
+    <string name="altura_em_cms">Altura em cms.</string>
 </resources>
